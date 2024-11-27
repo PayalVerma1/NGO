@@ -15,7 +15,7 @@ body {
   height: 90vh;
 }
 
-.content {
+#content {
   height: 100vh;
   gap: 1rem;
   display: flex;
@@ -66,8 +66,6 @@ ul li a:hover {
 }
 
 li img {
-
-
   height: 4rem;
   width: 4rem;
   cursor: pointer;
@@ -81,7 +79,7 @@ li img {
   color: rgb(255, 255, 240);
 }
 
-/* From Uiverse.io by reshades */
+
 button {
   background-color: #ffffff00;
   color: #fff;
@@ -90,7 +88,7 @@ button {
   padding: 2px 6px;
   border: rgb(255, 255, 240) 0.2em solid;
   border-radius: 33px;
-  text-align: right;
+  text-align: center;
   transition: all 0.6s ease;
 }
 
@@ -150,17 +148,61 @@ button:hover svg {
 .nextpg img{
   width: 28.1rem;
 }
-.image_1 h4{
-  
-
-  font-size: 1.5rem;
-  padding: 8rem 8rem;
+.image_1 h4 {
+  font-size: 1.8rem;
+  padding: 6rem;
+  color: rgb(255, 255, 240) ;
 }
-.pg3{
+.image_2 h4{
+  font-size: 1.8rem;
+  padding: 6rem;
+  color: rgb(255, 255, 240) ;
+}
+.image_3 h4{
+  font-size: 1.8rem;
+  padding: 6rem;
+  color: rgb(255, 255, 240) ;
+}
+#pg3{
   display: flex;
-  margin: 2rem 0 0 10rem;
+  margin: 2rem 0 2rem 10rem;
   gap: 2rem 1.5rem;
   }
-  .pg3 img{
+  #pg3 img{
     width: 20rem;
+   
   }
+.con3{
+  margin: 2rem;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: rgb(0 0 0 / 50%);
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 1rem auto;
+  color: white;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+} 
