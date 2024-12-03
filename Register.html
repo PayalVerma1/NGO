@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Registration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .form-container {
+            max-width: 700px;
+            margin: auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #343a40;
+        }
+
+        .btn-primary {
+            background: #007bff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="form-container">
+            <h2 class="form-title">Register as a Volunteer</h2>
+            <form>
+                <!-- Name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-Mail ID</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="altPhoneNumber" class="form-label">Alternate Phone Number</label>
+                        <input type="tel" class="form-control" id="altPhoneNumber" placeholder="Alternate phone number">
+                    </div>
+                </div>
+
+                <!-- Addresses -->
+                <div class="mb-3">
+                    <label for="currentAddress" class="form-label">Current Address</label>
+                    <textarea class="form-control" id="currentAddress" rows="2" placeholder="Enter your current address" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="permanentAddress" class="form-label">Permanent Address</label>
+                    <textarea class="form-control" id="permanentAddress" rows="2" placeholder="Enter your permanent address" required></textarea>
+                </div>
+
+                <!-- Branch & Year -->
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="branch" class="form-label">Branch</label>
+                        <input type="text" class="form-control" id="branch" placeholder="Enter your branch" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="year" class="form-label">Year</label>
+                        <input type="number" class="form-control" id="year" placeholder="Enter your year of study" required>
+                    </div>
+                </div>
+
+                <!-- Blood Group & College -->
+                <div class="row g-3 mt-3">
+                    <div class="col-md-6">
+                        <label for="bloodGroup" class="form-label">Select Blood Group</label>
+                        <select class="form-select" id="bloodGroup" required>
+                            <option value="" disabled selected>Select blood group</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="college" class="form-label">College</label>
+                        <input type="text" class="form-control" id="college" placeholder="Enter your college name" required>
+                    </div>
+                </div>
+
+                <!-- Project & Work Span -->
+                <div class="row g-3 mt-3">
+                    <div class="col-md-6">
+                        <label for="project" class="form-label">Select Project</label>
+                        <select class="form-select" id="project" required>
+                            <option value="" disabled selected>Select project</option>
+                            <option value="Project A">Project A</option>
+                            <option value="Project B">Project B</option>
+                            <option value="Project C">Project C</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="workSpan" class="form-label">Select Work Span</label>
+                        <select class="form-select" id="workSpan" required>
+                            <option value="" disabled selected>Select work span</option>
+                            <option value="1 Month">1 Month</option>
+                            <option value="3 Months">3 Months</option>
+                            <option value="6 Months">6 Months</option>
+                            <option value="1 Year">1 Year</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="mb-3 mt-3">
+                    <label for="skills" class="form-label">Your Skills (Comma Separated)</label>
+                    <input type="text" class="form-control" id="skills" placeholder="E.g., Communication, Teamwork, Leadership" required>
+                </div>
+
+                <!-- Suggestions -->
+                <div class="mb-3">
+                    <label for="suggestions" class="form-label">Suggestions</label>
+                    <textarea class="form-control" id="suggestions" rows="3" placeholder="Any suggestions for us"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Submit Your Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
