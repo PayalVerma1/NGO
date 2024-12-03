@@ -61,8 +61,8 @@ ul li a {
 
 ul li a:hover {
   color: rgb(168, 35, 201);
-  font-size: 20px;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+ 
 }
 
 li img {
@@ -150,23 +150,23 @@ button:hover svg {
 }
 .image_1 h4 {
   font-size: 1.8rem;
-  padding: 6rem;
+  padding: 5rem;
   color: rgb(255, 255, 240) ;
 }
 .image_2 h4{
   font-size: 1.8rem;
-  padding: 6rem;
+  padding: 5rem;
   color: rgb(255, 255, 240) ;
 }
 .image_3 h4{
   font-size: 1.8rem;
-  padding: 6rem;
+  padding: 5rem;
   color: rgb(255, 255, 240) ;
 }
 #pg3{
   display: flex;
   margin: 2rem 0 2rem 10rem;
-  gap: 2rem 1.5rem;
+  gap: 1rem 1.5rem;
   }
   #pg3 img{
     width: 20rem;
@@ -175,6 +175,10 @@ button:hover svg {
 .con3{
   margin: 2rem;
   font-size: 1.3rem;
+}
+.gallery body {
+  background-image: none;
+  background-color: #f4f4f9;
 }
 
 footer {
