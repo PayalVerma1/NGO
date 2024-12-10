@@ -169,8 +169,15 @@ button:hover svg {
   gap: 1rem 1.5rem;
   }
   #pg3 img{
+ 
     width: 20rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
    
+  }
+  #pg3 img:hover {
+    transform: scale(1.05); /* Slightly scale up for a subtle effect */
+   
+    cursor: pointer;
   }
 .con3{
   margin: 2rem;
