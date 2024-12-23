@@ -8,7 +8,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color:  rgb(255, 255, 240);
   text-align: center;
-  background-image: url("hopee.jpg");
+  background-image: url("https://res.cloudinary.com/do3ahravh/image/upload/v1734692768/hopee_opcwm8.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,24 +114,22 @@ button:hover svg {
 .nextpg{
   display: flex;
   height: 20rem;
- 
- 
 }
 .box1 {
-  background: url('img1.avif') center no-repeat;
+  background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692935/img1_xw6wfq.avif') center no-repeat;
   background-size: cover;
   width: 33.3rem;
 
   
  
 }.box2{
-  background: url('img2.avif') center no-repeat;
+  background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692964/img2_lpjudn.avif') center no-repeat;
   background-size: cover;
   width: 33.3rem;
  
 }
 .box3{
-  background: url('img4.avif') center no-repeat;
+  background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692976/img4_dhemyu.avif') center no-repeat;
   background-size: cover;
   width: 33.3rem;
  
@@ -165,6 +163,7 @@ button:hover svg {
 }
 #pg3{
   display: flex;
+  flex-wrap: wrap;
   margin: 2rem 0 2rem 10rem;
   gap: 1rem 1.5rem;
   }
