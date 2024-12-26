@@ -1,4 +1,3 @@
-
 const form = document.querySelector('form');
 const successMessage = document.getElementById('successMessage');
 

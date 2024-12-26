@@ -25,7 +25,7 @@ body {
 }
 
 .navbar {
-  height: 60px;
+  height:60px;
   background-color: rgb(0 0 0 / 50%);
   display: flex;
   align-items: center;
@@ -118,29 +118,43 @@ button:hover svg {
 .box1 {
   background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692935/img1_xw6wfq.avif') center no-repeat;
   background-size: cover;
-  width: 33.3rem;
-
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
  
 }.box2{
   background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692964/img2_lpjudn.avif') center no-repeat;
   background-size: cover;
-  width: 33.3rem;
- 
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .box3{
   background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692976/img4_dhemyu.avif') center no-repeat;
   background-size: cover;
-  width: 33.3rem;
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  
 }
 .image_1{
  
   background-color:#ffff0042;
-  height: 20rem;
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .image_3{background-color:#00ff004f;
-  height: 20rem;}
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
  
   
 .nextpg img{
@@ -166,18 +180,20 @@ button:hover svg {
   flex-wrap: wrap;
   margin: 2rem 0 2rem 10rem;
   gap: 1rem 1.5rem;
+   justify-content: center; 
   }
   #pg3 img{
- 
+    transition: transform 0.3s ease;
     width: 20rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
    
   }
   #pg3 img:hover {
-    transform: scale(1.05); /* Slightly scale up for a subtle effect */
+    transform: scale(1.05); 
    
     cursor: pointer;
   }
+
 .con3{
   margin: 2rem;
   font-size: 1.3rem;
@@ -215,4 +231,57 @@ footer {
 
 .footer-column a:hover {
   text-decoration: underline;
+} 
+
+@media (max-width: 768px) {
+  .nextpg {
+    flex-direction: column; 
+    height: auto; 
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%; 
+    height: 15rem; 
+  }
+
+  .image_1 h4,
+  .image_2 h4,
+  .image_3 h4 {
+    font-size: 1.5rem; 
+    padding: 1rem; 
+  }
+  #pg3 img {
+    width: 15rem; 
+  }
+  #pg3 h4 {
+    font-size: 1.3rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .box1,
+  .box2,
+  .box3 {
+    height: 12rem; 
+  }
+
+  .image_1 h4,
+  .image_2 h4,
+  .image_3 h4 {
+    font-size: 1.2rem; 
+  }
+  #pg3 {
+    margin: 1rem 0;
+    gap: 0.5rem; 
+  }
+  #pg3 img {
+    width: 100%; 
+    max-width: 18rem; 
+  }
+
+  #pg3 h4 {
+    font-size: 1rem; 
+  }
 } 
