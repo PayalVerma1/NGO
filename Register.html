@@ -48,46 +48,46 @@
                 <!-- Name -->
                 <div class="mb-3">
                     <label for="name" class="form-label">Your Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
                 </div>
 
                 <!-- Email -->
                 <div class="mb-3">
                     <label for="email" class="form-label">E-Mail ID</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
                 </div>
 
                 <!-- Phone Number -->
                 <div class="row g-3">
                     <div class="col-md-6">
                         <label for="phoneNumber" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number" required>
                     </div>
                     <div class="col-md-6">
                         <label for="altPhoneNumber" class="form-label">Alternate Phone Number</label>
-                        <input type="tel" class="form-control" id="altPhoneNumber" placeholder="Alternate phone number">
+                        <input type="tel" class="form-control" id="altPhoneNumber" name="altPhoneNumber" placeholder="Alternate phone number">
                     </div>
                 </div>
 
                 <!-- Addresses -->
                 <div class="mb-3">
                     <label for="currentAddress" class="form-label">Current Address</label>
-                    <textarea class="form-control" id="currentAddress" rows="2" placeholder="Enter your current address" required></textarea>
+                    <textarea class="form-control" id="currentAddress" name="currentAddress" rows="2" placeholder="Enter your current address" required></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="permanentAddress" class="form-label">Permanent Address</label>
-                    <textarea class="form-control" id="permanentAddress" rows="2" placeholder="Enter your permanent address" required></textarea>
+                    <textarea class="form-control" id="permanentAddress" name="permanentAddress" rows="2" placeholder="Enter your permanent address" required></textarea>
                 </div>
 
                 <!-- Branch & Year -->
                 <div class="row g-3">
                     <div class="col-md-6">
                         <label for="branch" class="form-label">Branch</label>
-                        <input type="text" class="form-control" id="branch" placeholder="Enter your branch" required>
+                        <input type="text" class="form-control" id="branch" name="branch" placeholder="Enter your branch" required>
                     </div>
                     <div class="col-md-6">
                         <label for="year" class="form-label">Year</label>
-                        <input type="number" class="form-control" id="year" placeholder="Enter your year of study" required>
+                        <input type="number" class="form-control" id="year" name="year" placeholder="Enter your year of study" required>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@
                 <div class="row g-3 mt-3">
                     <div class="col-md-6">
                         <label for="bloodGroup" class="form-label">Select Blood Group</label>
-                        <select class="form-select" id="bloodGroup" required>
+                        <select class="form-select" id="bloodGroup" name="bloodGroup" required>
                             <option value="" disabled selected>Select blood group</option>
                             <option value="A+">A+</option>
                             <option value="A-">A-</option>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="col-md-6">
                         <label for="college" class="form-label">College</label>
-                        <input type="text" class="form-control" id="college" placeholder="Enter your college name" required>
+                        <input type="text" class="form-control" id="college" name="college" placeholder="Enter your college name" required>
                     </div>
                 </div>
 
@@ -117,7 +117,7 @@
                 <div class="row g-3 mt-3">
                     <div class="col-md-6">
                         <label for="project" class="form-label">Select Project</label>
-                        <select class="form-select" id="project" required>
+                        <select class="form-select" id="project" name="project" required>
                             <option value="" disabled selected>Select project</option>
                             <option value="Project A">Project A</option>
                             <option value="Project B">Project B</option>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="col-md-6">
                         <label for="workSpan" class="form-label">Select Work Span</label>
-                        <select class="form-select" id="workSpan" required>
+                        <select class="form-select" id="workSpan" name="workSpan" required>
                             <option value="" disabled selected>Select work span</option>
                             <option value="1 Month">1 Month</option>
                             <option value="3 Months">3 Months</option>
@@ -139,13 +139,13 @@
                 <!-- Skills -->
                 <div class="mb-3 mt-3">
                     <label for="skills" class="form-label">Your Skills (Comma Separated)</label>
-                    <input type="text" class="form-control" id="skills" placeholder="E.g., Communication, Teamwork, Leadership" required>
+                    <input type="text" class="form-control" id="skills" name="skills" placeholder="E.g., Communication, Teamwork, Leadership" required>
                 </div>
 
                 <!-- Suggestions -->
                 <div class="mb-3">
                     <label for="suggestions" class="form-label">Suggestions</label>
-                    <textarea class="form-control" id="suggestions" rows="3" placeholder="Any suggestions for us"></textarea>
+                    <textarea class="form-control" id="suggestions" name="suggestions" rows="3" placeholder="Any suggestions for us"></textarea>
                 </div>
 
                 <!-- Submit Button -->
