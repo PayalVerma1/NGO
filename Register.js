@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+const form = document.getElementById('reg-form');
 const successMessage = document.getElementById('successMessage');
 
 // form.addEventListener('submit', function(event) {
@@ -14,7 +14,7 @@ form.addEventListener('submit', async function(event) {
     const data = Object.fromEntries(formData); 
 
     try {
-        const response = await fetch('http://localhost:8000/api/blood/blood_portal', {
+        const response = await fetch('http://localhost:8000/api/NGO', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),
@@ -31,3 +31,4 @@ form.addEventListener('submit', async function(event) {
         alert('An error occurred. Please try again.');
     }
 });
+

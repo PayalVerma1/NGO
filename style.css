@@ -6,7 +6,7 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color:  rgb(255, 255, 240);
+  background-color: rgb(255, 255, 240);
   text-align: center;
   background-image: url("https://res.cloudinary.com/do3ahravh/image/upload/v1734692768/hopee_opcwm8.avif");
   background-size: cover;
@@ -26,7 +26,7 @@ body {
 }
 
 .navbar {
-  height:60px;
+  height: 60px;
   background-color: rgb(0 0 0 / 50%);
   display: flex;
   align-items: center;
@@ -62,8 +62,6 @@ ul li a {
 
 ul li a:hover {
   color: rgb(168, 35, 201);
-  
- 
 }
 
 li img {
@@ -79,7 +77,6 @@ li img {
   text-align: left;
   color: rgb(255, 255, 240);
 }
-
 
 button {
   background-color: #ffffff00;
@@ -109,24 +106,24 @@ button svg {
 
 button:hover svg {
   transform: translateX(5px);
-} 
-  
+}
 
-.nextpg{
+.nextpg {
   display: flex;
   height: 37vh;
 }
 .box1 {
-  background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692935/img1_xw6wfq.avif') center no-repeat;
+  background: url("https://res.cloudinary.com/do3ahravh/image/upload/v1734692935/img1_xw6wfq.avif")
+    center no-repeat;
   background-size: cover;
   width: 33.3%;
   display: flex;
   align-items: center;
   justify-content: center;
-  
- 
-}.box2{
-  background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692964/img2_lpjudn.avif') center no-repeat;
+}
+.box2 {
+  background: url("https://res.cloudinary.com/do3ahravh/image/upload/v1734692964/img2_lpjudn.avif")
+    center no-repeat;
   background-size: cover;
   width: 33.3%;
   display: flex;
@@ -134,72 +131,70 @@ button:hover svg {
   align-items: center;
   justify-content: center;
 }
-.box3{
-  background: url('https://res.cloudinary.com/do3ahravh/image/upload/v1734692976/img4_dhemyu.avif') center no-repeat;
+.box3 {
+  background: url("https://res.cloudinary.com/do3ahravh/image/upload/v1734692976/img4_dhemyu.avif")
+    center no-repeat;
   background-size: cover;
   width: 33.3%;
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
-.image_1{
- 
-  background-color:#ffff0042;
-  height: 100%; 
+.image_1 {
+  background-color: #ffff0042;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.image_3{background-color:#00ff004f;
-  height: 100%; 
+.image_3 {
+  background-color: #00ff004f;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
- 
-  
-.nextpg img{
+
+.nextpg img {
   width: 28.1rem;
 }
 .image_1 h4 {
   font-size: 1.8rem;
   padding: 5rem;
   flex-wrap: wrap;
-  color: rgb(255, 255, 240) ;
+  color: rgb(255, 255, 240);
 }
-.image_2 h4{
+.image_2 h4 {
   font-size: 1.8rem;
   padding: 5rem;
-   flex-wrap: wrap;
-  color: rgb(255, 255, 240) ;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 240);
 }
-.image_3 h4{
+.image_3 h4 {
   font-size: 1.8rem;
   padding: 5rem;
-   flex-wrap: wrap;
-  color: rgb(255, 255, 240) ;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 240);
 }
-#pg3{
+#pg3 {
   display: flex;
   flex-wrap: wrap;
   margin: 2rem 0 2rem 1rem;
   gap: 1rem 1.5rem;
-   justify-content: center; 
-  }
-  #pg3 img{
-    transition: transform 0.3s ease;
-    width: 20rem;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-   
-  }
-  #pg3 img:hover {
-    transform: scale(1.05); 
-   
-    cursor: pointer;
-  }
+  justify-content: center;
+}
+#pg3 img {
+  transition: transform 0.3s ease;
+  width: 20rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+#pg3 img:hover {
+  transform: scale(1.05);
 
-.con3{
+  cursor: pointer;
+}
+
+.con3 {
   margin: 2rem;
   font-size: 1.3rem;
 }
@@ -236,40 +231,38 @@ footer {
 
 .footer-column a:hover {
   text-decoration: underline;
-} 
+}
 
-.material-symbols-outlined{
+.material-symbols-outlined {
   display: none;
 }
 @media (max-width: 768px) {
   .nextpg {
-    flex-direction: column; 
-    height: auto; 
+    flex-direction: column;
+    height: auto;
   }
-  .box{
+  .box {
     font-size: 1.6rem;
-    
-  
   }
 
   .box1,
   .box2,
   .box3 {
-    width: 100%; 
-    height: 15rem; 
+    width: 100%;
+    height: 15rem;
   }
 
   .image_1 h4,
   .image_2 h4,
   .image_3 h4 {
-    font-size: 1.2rem; 
-    padding: 1rem; 
+    font-size: 1.2rem;
+    padding: 1rem;
   }
   #pg3 img {
-    width: 15rem; 
+    width: 15rem;
   }
   #pg3 h4 {
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
   }
 }
 
@@ -277,48 +270,46 @@ footer {
   .box1,
   .box2,
   .box3 {
-    height: 12rem; 
+    height: 12rem;
   }
   body {
     background-image: url("https://res.cloudinary.com/do3ahravh/image/upload/v1735299914/bill-wegener-zXfuAIUDfao-unsplash_az5srj.jpg");
     height: 100vh;
-  } 
-  .left{
-    font-size: 19px;
-   padding: 0 3%;
-   
   }
-  .box{
+  .left {
+    font-size: 19px;
+    padding: 0 3%;
+  }
+  .box {
     font-size: 1rem;
   }
-  ul li{
+  ul li {
     font-size: 0%;
-   
   }
-  #content{
+  #content {
     padding: 0 1rem;
     height: 90vh;
   }
-  .material-symbols-outlined{
+  .material-symbols-outlined {
     display: block;
     color: white;
-   margin-right: 0
+    margin-right: 0;
   }
   .image_1 h4,
   .image_2 h4,
   .image_3 h4 {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
   #pg3 {
     margin: 1rem 0;
-    gap: 0.5rem; 
+    gap: 0.5rem;
   }
   #pg3 img {
-    width: 100%; 
-    max-width: 18rem; 
+    width: 100%;
+    max-width: 18rem;
   }
 
   #pg3 h4 {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
-} 
+}
