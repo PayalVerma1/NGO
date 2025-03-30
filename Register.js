@@ -14,7 +14,7 @@ form.addEventListener('submit', async function(event) {
     const data = Object.fromEntries(formData); 
 
     try {
-        const response = await fetch('http://localhost:8000/api/NGO', {
+        const response = await fetch('http://localhost:8000/NGO', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),
