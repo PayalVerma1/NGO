@@ -9,7 +9,7 @@ form.addEventListener("submit", async function (event) {
 
   try {
     const response = await fetch(
-      "http://localhost:8000/blood/blood_portal",
+      "https://ngo-backend-git-main-payal-vermas-projects.vercel.app/blood/blood_portal",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

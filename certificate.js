@@ -6,7 +6,7 @@
             alert('Please enter your name!');
             return;
         }
-        fetch('http://localhost:8000/certificate/generate-certificate', {
+        fetch('https://ngo-backend-git-main-payal-vermas-projects.vercel.app/certificate/generate-certificate', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
